@@ -1,0 +1,72 @@
+.main
+{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	
+	height: 650px;
+}
+
+.group-name
+{
+	
+	width: 200px;
+	height: 120px;
+	background-color: white;
+	display: block;
+	float: left;
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+.group-logo
+{
+	width: 80px;
+	height: 80px;
+	background-color: #eee;
+	display: block;
+	float: left;
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+.group-pre
+{
+	
+	background-color: white; 
+	margin-left: 260px;
+	margin-right: 180px;
+	padding: 20px;
+
+    height: 80%;
+	border: 1px solid #999;
+	
+}
+
+.person-outer
+{
+	
+	width: 120px;
+	height: 610px;
+	background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+
+    
+	padding: 20px;
+	border: 1px solid #999;
+	
+
+}
+
+.person-logo1,.person-logo2,.person-logo3,.person-logo4,.person-logo5
+{
+	width: 80px;
+	height: 80px;
+	background-color: #eee;
+	
+	padding: 20px;
+	border: 1px solid #999;
+}
