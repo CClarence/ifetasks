@@ -1,0 +1,40 @@
+html,body
+{
+	height: 100%;
+	padding: 0;
+}
+
+.container
+{
+	height: 200px;
+	width: 400px;
+	background-color: #ccc;
+	position: relative;
+	margin: 0 auto;
+	top:50%;
+	margin-top: -100px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.circle-1
+{
+	height: 50px;
+	width: 50px;
+	background-color: #fc0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 0 0 100% 0;
+}
+
+.circle-2
+{
+	height: 50px;
+	width: 50px;
+	background-color: #fc0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 100% 0 0 0;
+}
