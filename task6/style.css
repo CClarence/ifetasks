@@ -1,0 +1,514 @@
+html,body
+{
+	height: 100%;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+}
+
+div
+{
+	padding: 0;
+	margin: 0;
+}
+
+.newspaper
+{
+	height: 1486px;
+	width: 980px;
+	background-color: #eee;
+	margin-top: 0;
+
+}
+
+
+.liner
+{
+	width: 892px;
+	height: 2px;
+	background-color: #938e8c;
+	position: absolute;
+	left: 44px;
+	top: 81px;
+
+}
+
+.titler
+{
+	width: 110px;
+	height: 61px;
+	background-color: #cd4a48;
+	position: absolute;
+	left: 44px;
+	top: 20px;
+}
+
+.titler p
+{
+	 font-size: 12px;
+	 color: #ffffff;
+	 font-family: SimHei;
+	 position: absolute;
+	 
+	 margin: 0;
+	 bottom: 0;
+
+}
+
+.timer
+{
+	position: absolute;
+	left: 894px;
+	top: 56px;
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: SimHei;
+}
+
+.pic img
+{
+	width: 641px;
+	height: 301px;
+	position: absolute;
+	left: 44px;
+	top: 101px;
+}
+
+.green-up
+{
+	width: 191px;
+	height: 301px;
+	background-color: green;
+	position: absolute;
+	left: 44px;
+	top: 101px;
+	opacity: 0.4;
+}
+
+
+.red-up
+{
+	width: 191px;
+	height: 301px;
+	background-color: red;
+	position: absolute;
+	left: 494px;
+	top: 101px;
+	opacity: 0.4;
+}
+
+.liner-right
+{
+	width: 203px;
+	height: 2px;
+	background-color: #cc8091;
+	position: absolute;
+	left: 729px;
+	top: 101px;
+}
+
+
+
+.right1 p
+{
+	font-size: 24px;
+	color: #000000;
+	font-family:Microsoft YaHei; 
+	text-decoration:underline;
+	position: absolute;
+	left: 729px;
+	top: 101px;
+	margin: 0;
+
+}
+
+
+.right1 p:first-letter 
+{
+
+	
+	font-size:200%;
+
+}
+
+.passage-right
+{
+	font-size: 12px;
+	font-family: 楷体_GB2312;
+	color: #676767;
+	margin: 10px 0;
+	position: absolute;
+	left: 729px;
+	top: 190px;
+	
+}
+.number1-right
+{
+	font-size: 116px;
+	font-family: Microsoft YaHei;
+	font-style: italic;
+	color: #75b86b;
+	position: absolute;
+	font-weight: bold;
+	left: 710px;
+	top: 220px;
+}
+
+.number2-right
+{
+	font-size: 55px;
+	font-family: Microsoft YaHei;
+	
+	color: #cc8091;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: 729px;
+	top: 340px;
+}
+
+.abc1-right
+{
+	font-size: 21px;
+	font-family: Microsoft YaHei;
+	
+	color: #cc8091;
+	position: absolute;
+	
+	left: 820px;
+	top: 365px;
+}
+
+.abc2-right
+{
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	
+	color: #676767;
+	position: absolute;
+	
+	left: 820px;
+	top: 385px;
+}
+
+.what
+{
+	width: 220px;
+	height: 153px;
+	
+	position: absolute;
+	left: 44px;
+	top: 440px;
+	
+}
+
+.when
+{
+	width: 200px;
+	height: 153px;
+	
+	position: absolute;
+	left: 290px;
+	top: 440px;
+	
+}
+
+.how
+{
+	width: 180px;
+	height: 153px;
+	
+	position: absolute;
+	left: 510px;
+	top: 440px;
+	
+}
+
+.title-what
+{
+	font-size: 16px;
+	color: #418c59;
+	font-family:Microsoft YaHei; 
+	font-weight: bold;
+	text-decoration:underline;
+	
+	margin: 0;
+
+}
+
+.title-when
+{
+	font-size: 16px;
+	color: #d2994f;
+	font-family:Microsoft YaHei; 
+	font-weight: bold;
+	text-decoration:underline;
+	
+	margin: 0;
+
+}
+
+.title-how
+{
+	font-size: 16px;
+	color: #cc7680;
+	font-family:Microsoft YaHei; 
+	font-weight: bold;
+	text-decoration:underline;
+	
+	margin: 0;
+
+}
+
+.whatwhenhow p
+{
+	font-size: 12px;
+	color: #231815;
+	font-family:Microsoft YaHei; 
+	opacity: 70%;
+	
+	
+	
+}
+
+.percent
+{
+	font-size: 12px;
+	color: #231815;
+	font-family:Microsoft YaHei; 
+	opacity: 70%;
+	margin-top: 10px;
+}
+
+.percent-number1
+{
+	font-size: 12px;
+	color: #cd4a48;
+	font-family:Microsoft YaHei;
+	font-style: italic; 
+	opacity: 70%;
+	position: absolute;
+	left: 90px;
+	top: 125px;
+	
+}
+
+.percent-number2
+{
+	font-size: 12px;
+	color: #cd4a48;
+	font-family:Microsoft YaHei;
+	font-style: italic; 
+	opacity: 70%;
+	position: absolute;
+	left: 90px;
+	top: 153px;
+	
+}
+
+.percent-number3
+{
+	font-size: 12px;
+	color: #cd4a48;
+	font-family:Microsoft YaHei;
+	font-style: italic; 
+	opacity: 70%;
+	position: absolute;
+	left: 90px;
+	top: 179px;
+	
+}
+
+.title-left2
+{
+	font-size: 42px;
+	color: #11456b;
+	font-family:SimHei;
+	font-weight: bold;
+	position: absolute;
+	left: 44px;
+	top: 640px;
+}
+
+.liner-left2
+{
+	width: 415px;
+	height: 2px;
+	background-color: #11456b;
+	position: absolute;
+	left: 44px;
+	top: 870px;
+}
+
+.passage-left2
+{
+    width: 415px;
+	height:480px;
+	
+	position: absolute;
+	left: 44px;
+	top: 900px;
+	padding: 0;
+	margin: 0;
+}
+
+.passage-content
+{
+	font-size: 12px;
+	color: #767777;
+	font-family: 宋体;
+	letter-spacing: 2px;
+}
+
+.passage-left2 img
+{
+	width: 160px;
+	height: 280px;
+	margin: 15px 0 15px 15px;
+	float: right;
+	padding-right:18px;
+}
+
+.right2 img
+{
+	width: 458px;
+	height:275px;
+	
+	position: absolute;
+	left: 480px;
+	top: 690px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.cover-right2
+{
+	width: 458px;
+    height: 61px;
+    opacity: 0.2;
+    background-color: #000;
+    position: absolute;
+    top: 904px;
+    left: 480px;
+}
+
+.liner-right2
+{
+	width: 3px;
+	height: 44px;
+	background-color: #72b16a;
+	position: absolute;
+	top: 10px;
+	left: 35px;
+	
+	
+	
+}
+
+.cover-right2 p
+{
+	position: absolute;
+	left:45px;
+	top: -5px;
+	
+}
+
+
+.content-right2
+{
+    width: 458px;
+    height: 395px;
+    
+    background-color: #dedede;
+    position: absolute;
+    top: 1000px;
+    left: 480px;
+}
+
+
+.content-right2 p
+{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.putter-right2
+{
+	width: 260px;
+	height: 160px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	top: 235px;
+}
+
+.putter-right2 .first-letter
+{
+	font-size: 110px;
+	color: white;
+	font-style: Microsoft YaHei;
+	padding:0;
+	margin:0;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
+
+.liner-cutter
+{
+	width: 2px;
+	height: 86px;
+	background-color: white;
+	position: absolute;
+	left: 75px;
+	top: 40px;
+}
+
+.other-letter
+{
+	position: absolute;
+	left: 75px;
+	top: 20px;
+	padding:0;
+	margin:0;
+}
+
+.last-letter
+{
+	font-size:14px;
+	color: #5a5b5b;
+	font-family:SimHei;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left:260px ;
+	top: 150px;
+
+}
+
+
+.footer
+{
+	width: 892px;
+	height: 1px;
+	background-color: #938e8c;
+	position: absolute;
+	left: 44px;
+	top: 1436px;
+}
+
+.footer-content
+{
+	font-size: 12px;
+	font-style: SimHei;
+	color: #d45d5c;
+	position: absolute;
+	left: 850px;
+	top: 1426px;
+}
