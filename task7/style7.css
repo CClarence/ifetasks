@@ -1,0 +1,772 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+html,body
+{
+	
+
+}
+
+.container
+{
+	min-width: 1080px;
+	background:#444 url(images/001.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+}
+
+nav
+{
+	background-color: #ffffff;
+	height: 50px;
+}
+
+nav ul
+{
+	list-style: none;
+	float: right;
+
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: 50px;
+	
+	margin-right: 25px;
+}
+
+nav ul li a
+{
+	line-height: 50px;
+	text-decoration:none;
+	display: inline-block;
+	height: inherit;
+}
+
+nav ul li a span
+{
+	font-size: 16px;
+}
+
+nav ul li img
+{
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+.logo
+{
+	float: left;
+	font-size: 20px;
+	
+	line-height: 50px;
+	padding-left:110px; 
+	
+
+}
+.logo img
+{
+	height: 30px;
+	width: 30px;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+
+
+.logo a
+{
+	text-decoration:none;
+}
+
+
+
+nav span
+{
+	color: #000;
+	font-family: Microsoft Yahei;
+}
+
+
+.banner
+{
+	background-color: transparent;
+
+	height: 700px;
+}
+
+
+.banner .inner
+{
+
+	max-width: 420px;
+	
+	
+	position: relative;
+	top: 160px;
+	left: 80px;
+}
+
+
+.banner .inner .heading
+{
+	font-size: 54px;
+	font-family: Microsoft Yahei;
+    color: white;
+    float: left;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.sub-heading
+{
+	line-height: 25px;
+
+	margin: 0 30px 60px 0;
+    font-family: Microsoft Yahei;
+	color: white;
+	font-size: 25px;
+}
+
+.banner .inner button
+{
+	border: none;
+	background-color: red;
+	color: white;
+
+	padding: 15px 70px;
+
+}
+
+.banner .inner button span
+{
+	font-size: 30px;
+	font-family: Microsoft Yahei;
+}
+
+
+.group-item
+{
+	background-color: white;
+	height: 200px;
+	width: 100%;
+}
+
+.item-order
+{
+	display: inline-block;
+	width: 20%;
+	height: 200px;
+	position: relative;
+	left: 10%;
+}
+
+.item-order img
+{
+	position: relative;
+	top: 50px;
+	left: 110px;
+}
+
+
+.item-order p
+{
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-family: Microsoft Yahei;
+	position: relative;
+	top: 95px;
+}
+
+.liner-order
+{
+	background-color: #666666;
+	width: 2px;
+	height: 100px;
+	float: right;
+}
+
+.mainer
+{
+    min-width: 1080px;
+}
+
+.mainer .titler
+{
+	background-color: #ededed;
+	width: 100%;
+	height: 380px;
+}
+
+
+.mainer .titler img
+{
+	position: relative;
+	top: 100px;
+	left: 650px;
+}
+
+
+.mainer .titler p
+{
+     font-size: 50px;
+     color: white;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 130px;
+}
+
+
+.putter
+{
+	min-width: 1080px;
+	height: 380px;
+	background:#444 url(images/002.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+}
+
+.putter-titler
+{
+	 font-size: 20px;
+     color: white;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 60px;
+}
+
+.putter-liner
+{
+     width:30px;
+     height: 2px;
+     background-color: white;
+     margin: 0 auto;
+     position: relative;
+     top: 70px; 
+}
+
+.putter-passager
+{
+	 font-size: 12px;
+     color: white;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 80px;
+}
+
+.putter-researcher
+{
+
+	width: 80%;
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+
+.putter-researcher ul li
+{
+	display: inline-block;
+
+}
+
+.putter-researcher ul li select
+{
+	padding: 10px 80px;
+	margin: 0 10px;
+	font-family: SimHei;
+	font-size: 16px;
+}
+
+.putter-researcher ul li button
+{
+	padding: 12px 80px;
+	font-family:SimHei;
+	font-size: 16px;
+	letter-spacing: 20px;
+	background-color: red;
+	color: white;
+	border: none;
+}
+
+
+.activity
+{
+	background-color: #ededed;
+	min-width: 1080px;
+	height: 600px;
+	
+   
+}
+
+
+
+.activity-block
+{
+	display: inline-block;
+	width: 20%;
+	height: 90%;
+	margin: 60px 0 0 4%;
+}
+
+
+
+.activity-titler
+{
+
+}
+
+.activity-heading
+{
+	
+	 font-size: 16px;
+     color: black;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     left: -30px;
+     font-weight: bold;
+
+}
+
+.activity-passage
+{
+     font-size: 12px;
+     color: black;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     left: -30px;
+     top:2px;
+}
+
+
+.new-time
+{
+    min-width: 1080px;
+}
+
+
+.article-preview
+{
+    height: 600px;
+}
+
+.img-preview
+{
+	width: 65%;
+	height: 100%;
+}
+
+.img-preview img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.text-preview
+{
+	width: 35%;
+	height: 100%;
+}
+
+.article-preview > div
+{
+	float: left;
+}
+
+article-preview:after
+{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.text-preview .preview-titler
+{
+     font-size: 20px;
+     color: black;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 100px;
+     font-weight: bold;
+}
+
+
+.text-preview .preview-passage
+{
+	 font-size: 12px;
+     color: #333333;
+     font-family: SimHei;
+     text-align: center;
+     display: block;
+     width: 60%;
+     margin: 15px auto;
+     position: relative;
+     line-height: 25px;
+     top: 130px;
+     
+}
+
+.preview-button button
+{
+      border: 1px solid red;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      top: 190px;
+      padding: 10px 40px;
+      font-family: SimHei;
+      font-size: 16px;
+      color: red;
+      background-color: #ffffff;
+
+}
+
+
+
+.preview-choose
+{
+    
+	width: 96px;
+	margin: 0 auto;
+	position: relative;
+	top: 210px;
+}
+
+.text-preview .circle
+{
+    
+    display: inline-block;
+    width: 10px;
+    min-height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #222222;
+    border-radius: 100% 100% 100% 100%;
+
+
+}
+
+
+.article-preview2
+{
+    height: 600px;
+}
+
+.img-preview2
+{
+	width: 35%;
+	height: 100%;
+}
+
+.img-preview2 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.text-preview2
+{
+	width: 32.5%;
+	height: 100%;
+}
+
+.article-preview2 > div
+{
+	float: left;
+}
+
+article-preview2:after
+{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+
+.text-preview2 .preview2-titler
+{
+     font-size: 20px;
+     color: black;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 100px;
+     font-weight: bold;
+}
+
+.text-preview2 .preview2-passage
+{
+	 font-size: 12px;
+     color: #333333;
+     font-family: SimHei;
+     text-align: center;
+     display: block;
+     width: 60%;
+     margin: 15px auto;
+     position: relative;
+     line-height: 25px;
+     top: 130px;
+     
+}
+
+
+
+.preview2-button button
+{
+      border: 1px solid red;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      top: 190px;
+      padding: 10px 40px;
+      font-family: SimHei;
+      font-size: 16px;
+      color: red;
+      background-color: #ffffff;
+
+}
+
+.volunteer
+{
+	width: 100%;
+	height: 760px;
+	background-color: #ffffff;
+}
+
+
+.volunteer-titler
+{
+	 font-size: 30px;
+     color: #000000;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 90px;
+}
+
+.volunteer-liner
+{
+     width:30px;
+     height: 2px;
+     background-color: red;
+     margin: 0 auto;
+     position: relative;
+     top: 100px; 
+}
+
+.volunteer-passager
+{
+	 font-size: 12px;
+     color: #aaaaaa;
+     font-family: SimHei;
+     text-align: center;
+     position: relative;
+     top: 120px;
+}
+
+
+.volunteer-mainer
+{
+    height: 60%;
+}
+
+.volunteer-text
+{
+	width: 35%;
+	height: 100%;
+	position: relative;
+	top: 140px;
+}
+
+
+.volunteer-form
+{
+	width: 65%;
+	height: 100%;
+	position: relative;
+	top: 140px;
+}
+
+.volunteer-mainer > div
+{
+	float: left;
+}
+
+.volunteer-mainer:after
+{
+	content:'';
+	display: block;
+	clear: both;
+}
+
+.volunteer-text h1
+{
+	 font-size: 20px;
+     color: #aaaaaa;
+     font-family: SimHei;
+     
+     position: relative;
+     top: 60px;
+     margin-bottom: 20px;
+     margin-left: 190px;
+     
+}
+
+.volunteer-text p
+{
+	 font-size: 12px;
+     color: #333333;
+     font-family: SimHei;
+     
+     position: relative;
+     top: 70px;
+     margin-bottom: 20px;
+     margin-left: 190px;
+     
+}
+
+.volunteer-form form input
+{
+	
+	display: block;
+	width: 30%;
+	height: 40px;
+	float: left;
+	margin: 20px 20px 0 60px;
+	position: relative;
+	top: 40px;
+	background-color: #cccccc;
+	border:none;
+	color: black;
+	font-family: SimHei;
+}
+
+.volunteer-form form textarea
+{
+	width: 70%;
+	height: 90px;
+	margin: 20px 20px 0 60px;
+	position: relative;
+	top: 60px;
+	background-color: #cccccc;
+	border:none;
+	color: black;
+	font-family: SimHei;
+}
+
+.volunteer-form button
+{
+	width: 70%;
+	height: 40px;
+	margin: 0 20px 0 60px;
+	position: relative;
+	top: 80px;
+	background-color: #cccccc;
+	border:none;
+	color: black;
+	font-family: SimHei;
+}
+
+.footer
+{
+	min-width: 1080px;
+	height: 500px;
+	background-color: #222222;
+}
+
+.footer-heading
+{
+	 font-size: 25px;
+     color: #ffffff;
+     font-family: SimHei;
+     
+     position: relative;
+     top: 90px;
+     left: 600px;
+}
+
+.footer-passage
+{
+	 font-size: 14px;
+     color: #ffffff;
+     font-family: SimHei;
+     
+     position: relative;
+     top: 100px;
+     left: 400px;
+}
+
+.footer input
+{
+	
+	width: 400px;
+	position: relative;
+	left: 400px;
+	top: 120px;
+	height: 40px;
+	font-family: SimHei;
+	font-size: 16px;
+}
+.footer button
+{
+	width: 100px;
+	position: relative;
+	top: 118px;
+	left: 390px;
+	padding: 14px 0;
+	border: none;
+	background-color: #666666;
+}
+
+
+
+
+
+
+
+.footer-banner
+{
+	width: 100%;
+	height: 50px;
+	background-color: #111111;
+	position: relative;
+	top: 345px;
+}
+
+
+
+.footer-banner p
+{
+	 font-size: 12px;
+     color: #ffffff;
+     font-family: SimHei;
+     
+     position: relative;
+     top: 20px;
+     left: 60px;
+}
+
+.footer-banner  a
+{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	font-family: SimHei;
+	position: relative;
+    top: -5px;
+    left: 1000px;
+}
+
