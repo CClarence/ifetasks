@@ -1,0 +1,341 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container
+{
+     width: 100%;
+     height: 100%;
+}
+
+.header
+{
+	width: 100%;
+	min-width: 320px;
+	height: 60px;
+	background-color: #5DAC81;
+	text-align: center;
+}
+
+.header li
+{
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	font-family: SimHei;
+}
+
+.header li a
+{
+	text-decoration: none;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	color: #fff;
+	font-family: SimHei;
+
+}
+
+.header li p
+{
+	position: relative;
+	
+	top: 15px;
+
+	font-size: 30px;
+}
+
+.guide
+{
+	width: 100%;
+	height: 60px;
+}
+.guide li
+{
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	
+	font-family: SimHei;
+	width: 20%;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	font-size: 28px;
+}
+
+.guide li a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.banner
+{
+	width: 100%;
+	height: 547px;
+	background:#444 url(images/001.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.tager
+{
+	display: flex;
+	flex-flow: row;
+	align-items:center;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.block
+{
+	text-align: center;
+	color: #000;
+	font-family: SimHei;
+	font-size: 20px;
+	width: 20%;
+	padding: 30px;
+}
+
+.liner
+{
+	width: 95%;
+	height: 2px;
+	background-color: #666666;
+	margin: 10px auto;
+}
+
+.coler
+{
+	display: flex;
+	flex-flow: row;
+	align-items:center;
+	justify-content: space-between;
+	width: 100%;
+	height: 341px;
+}
+
+.columner
+{
+	height: 100%;
+	text-align: center;
+	font-family:SimHei;
+	width: 33.33%;
+	padding: 30px; 
+}
+
+h1
+{
+	color: #232323;
+	margin-bottom: 10px;
+}
+
+p
+{
+	color: #cccccc;
+
+}
+
+.liner-col
+{
+	width: 2px;
+	height: 70%;
+	background-color:#666666; 
+	float: right;
+	position: relative;
+	top: -250px;
+	left: 20px;
+}
+
+.liner2
+{
+	width: 100%;
+	height: 40px;
+	background-color: #ededed;
+	margin: 10px auto;
+}
+
+.module p
+{
+	color: #333;
+	font-family: SimHei;
+	font-size: 40px;
+	padding: 30px;
+}
+
+.liner-mod
+{
+	width: 95%;
+	height: 2px;
+	background-color: #ededed;
+	margin: 10px auto;
+}
+
+.block-mod
+{
+	display: flex;
+	flex-flow: row;
+	align-items:center;
+	justify-content: space-around;
+	width: 100%;
+	
+}
+
+.pic-mod
+{
+	width: 25%;
+	padding: 30px;
+	
+}
+
+.passage-group
+{
+	width: 75%;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content: space-around;
+	
+
+}
+.passage-mod
+{
+	width: 37.5%;
+	margin: 30px 40px;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 35px;
+	color: #222;
+	font-family: SimHei;
+	background-color: #dedede;
+
+	
+}
+
+.liner2-mod
+{
+	width: 100%;
+	height: 20px;
+	background-color: #ededed;
+	margin: 10px auto;
+}
+
+
+.article
+{
+	width: 100%;
+}
+
+.article1
+{
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	
+	align-items:center;
+	justify-content: space-around;
+}
+
+.pic-art
+{
+	width: 25%;
+	padding: 30px;
+}
+
+.main-art
+{
+	width: 75%;
+
+}
+
+.main-art h1
+{
+	font-size: 40px;
+	color: #222;
+	font-family: SimHei;
+	padding-left: 10%;
+
+}
+
+.main-art p
+{
+	font-size: 25px;
+	color: #ccc;
+	font-family: SimHei;
+	padding-left: 10%;
+	margin-top: 40px;
+}
+
+.liner-art
+{
+	width: 100%;
+	height: 6px;
+	background-color: #ededed;
+	margin: 10px auto;
+}
+
+.article2
+{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items:center;
+	justify-content: space-around;
+}
+
+.title-art2
+{
+	height: 20%;
+}
+
+.title-art2 h1
+{
+	font-size: 40px;
+	color: #222;
+	font-family: SimHei;
+	padding: 0 30px;
+	
+
+}
+
+.pic-group
+{
+	height: 60%;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+
+	align-items:center;
+	justify-content: space-around;
+}
+
+.pic-group .pic-art2
+{
+    width: 33.33%;
+    padding: 20px 30px;
+
+}
+
+.main-art2
+{
+	height: 20%;
+	padding: 0 30px;
+}
+
+.main-art2 p
+{
+	
+}
